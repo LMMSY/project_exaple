@@ -1,0 +1,25 @@
+server:
+  port: 8082
+
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: exaple
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+logging:
+  file:
+    path: ./log/exaple.log
+
+#logging:
+#  level:
+#    org.fiberhome.mapper: debug  #打印SQL日志

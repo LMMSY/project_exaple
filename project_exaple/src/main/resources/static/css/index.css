@@ -1,0 +1,66 @@
+.banner,.content,.module{
+	width: 100%;
+}
+.content{
+	margin-top: 26px;
+}
+.welcome{
+	font-size:50px;
+	font-family:Source Han Sans CN;
+	font-weight:500;
+	color:rgba(35,25,21,1);
+	padding: 40px;
+	white-space: nowrap;
+}
+.allIcon{
+	display: flex;
+	flex-wrap: wrap;
+}
+.moduleTitle{
+	margin: 30px;
+	font-weight:400;
+	color:rgba(52,52,52,1);
+}
+.titleBody{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin: 31px;
+	white-space: nowrap;
+	width: 132px;
+	position: relative;
+}
+.titleBody img{
+	width: calc(132px * 0.9);
+	height: calc(122px * 0.9);
+	margin: 0 auto;
+}
+.titleBody .dot{
+	position: absolute;
+	top: -18px;
+	left: 98px;
+	display: block;
+	width: 44px;
+	height: 44px;
+	background: #F43333;
+	border-radius: 44px;
+	font-size: 35px;
+	color: #fff;
+	display: none;
+}
+.omit.dot{
+	font-size: 25px;
+}
+.font4{
+	margin-left: -26px;
+}
+.titleBody span{
+	margin-top: 31px;
+}
+.moduleTitle .tip{
+	vertical-align: middle;
+}
+.moduleTitle .right{
+	display: none;
+	transform: rotate(-90deg);
+}
